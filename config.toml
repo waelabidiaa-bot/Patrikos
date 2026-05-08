@@ -1,0 +1,7 @@
+[editor]
+tab_size = 4
+line_numbers = true
+
+[ui]
+status_bar = true
+theme = "dark"
