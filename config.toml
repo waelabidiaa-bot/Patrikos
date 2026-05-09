@@ -4,4 +4,14 @@ line_numbers = true
 
 [ui]
 status_bar = true
+title_bar = true
 theme = "dark"
+
+
+[colors]
+title_fg = 7  # white
+title_bg = 4  # blue
+status_fg = 7 # white
+status_bg = 0 # black
+text_fg = 7   # white
+text_bg = 0   # black

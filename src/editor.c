@@ -14,6 +14,7 @@ input_text* create_input_text() {
     text->cursor_x = 0;
     text->cursor_y = 0;
     text->scroll_y = 0;
+    text->scroll_x = 0;
     text->filename[0] = '\0';
     text->is_file_loaded = 0;
 

@@ -10,6 +10,7 @@ typedef struct text {
     int cursor_x;
     int cursor_y;
     int scroll_y;
+    int scroll_x;
     char filename[200];
     int is_file_loaded;
 } input_text;

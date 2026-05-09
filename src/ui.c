@@ -26,4 +26,5 @@ void get_filename(char* buffer, int max_len) {
     wgetnstr(stdscr, buffer, max_len - 1);
 
     noecho();        // restore editor mode
+    curs_set(0);
 }
